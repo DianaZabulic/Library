@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistenceLibrary>
+    <fileName>carti.xml</fileName>
+    <libraries>
+        <id>1</id>
+        <name>Biblioteca A</name>
+        <librarybooks>
+            <book>
+                <title>Pe aripile vantului</title>
+                <author>Margaret Mitchell</author>
+                <domain>proza</domain>
+            </book>
+            <publishedBooks>
+                <id>3</id>
+                <isbn>652189</isbn>
+                <publisher>Corint</publisher>
+                <publicationyear>1936</publicationyear>
+            </publishedBooks>
+        </librarybooks>
+        <librarybooks>
+            <book>
+                <title>Macbeth</title>
+                <author>William Shakespeare</author>
+                <domain>dramaturgie</domain>
+            </book>
+            <publishedBooks>
+                <id>4</id>
+                <isbn>624598</isbn>
+                <publisher>Cartex</publisher>
+                <publicationyear>1623</publicationyear>
+            </publishedBooks>
+        </librarybooks>
+        <librarybooks>
+            <book>
+                <title>Anna Karenina</title>
+                <author>Lev Tolstoi</author>
+                <domain>proza</domain>
+            </book>
+            <publishedBooks>
+                <id>5</id>
+                <isbn>532187</isbn>
+                <publisher>Corint</publisher>
+                <publicationyear>1877</publicationyear>
+            </publishedBooks>
+        </librarybooks>
+        <librarybooks>
+            <book>
+                <title>Mizerabilii</title>
+                <author>Victor Hugo</author>
+                <domain>proza</domain>
+            </book>
+            <publishedBooks>
+                <id>6</id>
+                <isbn>521457</isbn>
+                <publisher>Corint</publisher>
+                <publicationyear>1862</publicationyear>
+            </publishedBooks>
+        </librarybooks>
+        <librarybooks>
+            <book>
+                <title>La rascruce de vanturi</title>
+                <author>Emily Bronte</author>
+                <domain>proza</domain>
+            </book>
+            <publishedBooks>
+                <id>7</id>
+                <isbn>554302</isbn>
+                <publisher>Leda</publisher>
+                <publicationyear>1848</publicationyear>
+            </publishedBooks>
+        </librarybooks>
+        <librarybooks>
+            <book>
+                <title>Padurea spanzuratilor</title>
+                <author>Liviu Rebreanu</author>
+                <domain>proza</domain>
+            </book>
+            <publishedBooks>
+                <id>8</id>
+                <isbn>5321875</isbn>
+                <publisher>Corint</publisher>
+                <publicationyear>1922</publicationyear>
+            </publishedBooks>
+        </librarybooks>
+        <librarybooks>
+            <book>
+                <title>O scrisoare pierduta</title>
+                <author>I.L.Caragiale</author>
+                <domain>dramaturgie</domain>
+            </book>
+            <publishedBooks>
+                <id>9</id>
+                <isbn>754135</isbn>
+                <publisher>Corint</publisher>
+                <publicationyear>1884</publicationyear>
+            </publishedBooks>
+        </librarybooks>
+        <librarybooks>
+            <book>
+                <title>AAA</title>
+                <author>aaa</author>
+                <domain>liric</domain>
+            </book>
+            <publishedBooks>
+                <id>30</id>
+                <isbn>542361</isbn>
+                <publisher>aaaaaa</publisher>
+                <publicationyear>2021</publicationyear>
+            </publishedBooks>
+        </librarybooks>
+    </libraries>
+    <libraries>
+        <id>2</id>
+        <name>Biblioteca B</name>
+        <librarybooks>
+            <book>
+                <title>Ion</title>
+                <author>Liviu Rebreanu</author>
+                <domain>proza</domain>
+            </book>
+            <publishedBooks>
+                <id>1</id>
+                <isbn>598745</isbn>
+                <publisher>Corint</publisher>
+                <publicationyear>1920</publicationyear>
+            </publishedBooks>
+            <publishedBooks>
+                <id>2</id>
+                <isbn>123457</isbn>
+                <publisher>Litera</publisher>
+                <publicationyear>1920</publicationyear>
+            </publishedBooks>
+        </librarybooks>
+    </libraries>
+    <libraries>
+        <id>3</id>
+        <name>Biblioteca C</name>
+    </libraries>
+</persistenceLibrary>

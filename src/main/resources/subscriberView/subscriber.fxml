@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="476.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SubscriberView">
+    <GridPane layoutX="22.0" layoutY="14.0" prefHeight="60.0" prefWidth="638.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#viewBooksButton" prefHeight="35.0" prefWidth="150.0" text="Vizualizare carti" textAlignment="CENTER" />
+        <Button mnemonicParsing="false" onAction="#searchBookButton" prefHeight="35.0" prefWidth="150.0" text="Cautare carte:" GridPane.columnIndex="3" />
+        <MenuButton fx:id="filterButton" alignment="CENTER" mnemonicParsing="false" prefHeight="35.0" prefWidth="150.0" text="Filtrare carti:" GridPane.columnIndex="1">
+        </MenuButton>
+        <TextField fx:id="filterField" layoutX="394.0" layoutY="22.0" prefHeight="35.0" prefWidth="150.0" GridPane.columnIndex="2" />
+        <TextField fx:id="searchTitleField" prefHeight="35.0" prefWidth="150.0" GridPane.columnIndex="4" />
+    </GridPane>
+    <TableView fx:id="booksTable" layoutX="11.0" layoutY="85.0" prefHeight="324.0" prefWidth="348.0">
+        <columns>
+            <TableColumn fx:id="titleColumn" prefWidth="119.0" text="Titlu" />
+            <TableColumn fx:id="authorColumn" prefWidth="100.20001220703125" text="Autor" />
+            <TableColumn fx:id="domainColumn" prefWidth="126.20001220703125" text="Domeniu" />
+        </columns>
+    </TableView>
+    <TableView fx:id="publishedBooksTable" layoutX="360.0" layoutY="85.0" prefHeight="324.0" prefWidth="285.0">
+        <columns>
+            <TableColumn fx:id="idColumn" prefWidth="74.0" text="Nr. inventar" />
+            <TableColumn fx:id="publisherColumn" prefWidth="75.79998779296875" text="Editura" />
+            <TableColumn fx:id="publicationYearColumn" prefWidth="77.39996337890625" text="An publicare" />
+            <TableColumn fx:id="isbnColumn" prefWidth="55.4000244140625" text="ISBN" />
+        </columns>
+    </TableView>
+    <GridPane layoutX="41.0" layoutY="419.0" prefHeight="30.0" prefWidth="577.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Label alignment="CENTER" prefHeight="35.0" prefWidth="150.0" text="Username:" />
+        <TextField fx:id="usernameField" prefHeight="35.0" prefWidth="150.0" GridPane.columnIndex="1" />
+        <Label alignment="CENTER" prefHeight="35.0" prefWidth="150.0" text="Parola:" GridPane.columnIndex="2" />
+        <Button mnemonicParsing="false" onAction="#loginButton" prefHeight="35.0" prefWidth="150.0" text="Login" GridPane.columnIndex="4" />
+        <PasswordField fx:id="passwordField" prefHeight="36.0" prefWidth="118.0" GridPane.columnIndex="3" />
+    </GridPane>
+</AnchorPane>

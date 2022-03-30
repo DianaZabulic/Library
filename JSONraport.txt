@@ -1,0 +1,1 @@
+[{"book":{"title":"Macbeth","author":"William Shakespeare","domain":"dramaturgie"},"publishedBooks":[{"isbn":624598,"publisher":"Cartex","publicationYear":1623,"id":4}]},{"book":{"title":"O scrisoare pierduta","author":"I.L.Caragiale","domain":"dramaturgie"},"publishedBooks":[{"isbn":754135,"publisher":"Corint","publicationYear":1884,"id":9}]}]
